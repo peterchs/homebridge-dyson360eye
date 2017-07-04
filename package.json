@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-dyson360eye",
+  "version": "0.1.0",
+  "description": "A Dyson 360 Eye robot vacuum plugin for homebridge.",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "dyson",
+    "mqtt"
+  ],
+  "engines": {
+    "node": ">=5.12.0",
+    "homebridge": ">=0.4.20"
+  },
+  "author": {
+    "name": "Peter Stevenson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peteakalad/homebridge-dyson360eye.git"
+  },
+  "dependencies": {
+    "mqtt": "^2.8.1",
+    "debug": "^2.6.1"
+  }
+}
