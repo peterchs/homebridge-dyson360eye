@@ -1,6 +1,6 @@
 {
   "name": "homebridge-dyson360eye",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Dyson 360 Eye robot vacuum plugin for homebridge.",
   "license": "MIT",
   "keywords": [
