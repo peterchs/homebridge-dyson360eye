@@ -25,19 +25,20 @@ Configuration Accessories Section Sample for Homebridge config.json:
 ```
 
 Once set up you can do commands like;
-Hey siri
-..set <NAME> max on = set robot to max power
-..set <NAME> quiet on = set robot to quiet power
-..set <NAME> clean on = start cleaning
-..set <NAME> clean off = pause
-..set <NAME> go to dock on = stop cleaning, return to dock
 
-Where name is the configured robot name in the configuration (above it is 'Robot')
+Hey siri ..
+* ..set NAME max on = set robot to max power
+* ..set NAME quiet on = set robot to quiet power
+* ..set NAME clean on = start cleaning
+* ..set NAME clean off = pause
+* ..set NAME go to dock on = stop cleaning, return to dock
+
+Where NAME is the configured robot name in the configuration (above it is 'Robot')
 
 I have scenes set up in Home app, which set the switches appropriately, so the following siri commands/scenes work:
-"Start cleaning" (turn on clean switch)
-"Pause cleaning" (turn off clean switch)
-"Stop Cleaning" (turn on go to dock switch)
-"Resume Cleaning" (turn on clean switch)
+* "Start cleaning" (turn on clean switch)
+* "Pause cleaning" (turn off clean switch)
+* "Stop Cleaning" (turn on go to dock switch)
+* "Resume Cleaning" (turn on clean switch)
 
 This can be considered alpha but still may be of use.
